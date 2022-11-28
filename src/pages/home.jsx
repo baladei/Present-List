@@ -49,7 +49,7 @@ export function Lista() {
     onChange={TESTE => setNomeCliente(TESTE.target.value)}
     />
     
-    <button type="button" onClick={addCliente}>
+    <button type="submit" onClick={addCliente}>
       Adicionar
       </button>
 
